@@ -1,13 +1,3 @@
-"addons": [
-    {
-      "plan": "postgresql:postgresql-starter-512",
-      "options": {
-        "version": "11"
-      }
-    }, {
-      "plan": "redis:redis-starter-128",
-    }
-  ]
 {"name": "سورس الجوكر <3","description": "اللهم صل على محمد وآل محمد","keywords": ["jepthon","telethon","joker"],"repository": "https://github.com/jepthoniq/lMl10l","stack": "container",
     "addons": [
     {
@@ -23,5 +13,7 @@
         "TG_BOT_USERNAME": {"description": "ضع يوزر البوت بدون", "required": true, "value":"" },
         "TZ": {"description": "ضع هنا المنطقة الزمنيه الخاصه بك القارة وعاصمه بلدك","required": true,"value": "Asia/Baghdad"},
         "ENV": {"description": "لاتغيرة" , "required": true,  "value": "ANYTHING"},
-    }}
-"buildpacks": [{"url": "https://github.com/Scalingo/python-buildpack"},{"url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"}]
+    }
+    "buildpacks": [{"url": "https://github.com/Scalingo/python-buildpack"},{"url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"}]
+}
+
