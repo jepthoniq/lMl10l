@@ -1,2 +1,2 @@
-hi[Joker](https://i.ibb.co/wcW2S4d/Ephoto360-com-163942f57f3305.jpg)
+![Joker](https://i.ibb.co/wcW2S4d/Ephoto360-com-163942f57f3305.jpg)
 
