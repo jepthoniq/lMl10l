@@ -1,4 +1,19 @@
-{"name": "سورس الجوكر <3","description": "اللهم صل على محمد وآل محمد","addons": ["scalingo-postgresql"],"keywords": ["jepthon","telethon","joker"],"repository": "https://github.com/jepthoniq/lMl10l","stack": "container",
+"addons": [
+    {
+      "plan": "postgresql:postgresql-starter-512",
+      "options": {
+        "version": "11"
+      }
+    }, {
+      "plan": "redis:redis-starter-128",
+    }
+  ]
+{"name": "سورس الجوكر <3","description": "اللهم صل على محمد وآل محمد","keywords": ["jepthon","telethon","joker"],"repository": "https://github.com/jepthoniq/lMl10l","stack": "container",
+    "addons": [
+    {
+      "plan": "postgresql:postgresql-starter-512",
+    }
+  ]
     "env": {
         "ALIVE_NAME": {"description": "ضع هنا اسم حسابك على التليجرام","required": true,"value":""},
         "APP_ID": {"description": "ضع هنا الايبي ايدي","required": true,"value":""},
