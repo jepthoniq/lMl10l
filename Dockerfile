@@ -7,4 +7,5 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install --upgrade pip
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
+RUN apt-get install -y --no-install-recommends mediainfo
 CMD ["bash", "start"]
