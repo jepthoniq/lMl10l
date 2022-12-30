@@ -44,6 +44,7 @@ pyfiglet
 PyGithub
 programmingquotes
 pygments
+psycopg2
 pylast
 pymediainfo
 pySmartDL
