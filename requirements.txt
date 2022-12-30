@@ -39,7 +39,6 @@ motor
 patool
 Pillow
 prettytable
-programmingquotes
 psutil
 pyfiglet
 PyGithub
