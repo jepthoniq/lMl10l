@@ -42,6 +42,7 @@ prettytable
 psutil
 pyfiglet
 PyGithub
+programmingquotes
 pygments
 pylast
 pymediainfo
