@@ -4,7 +4,7 @@ services:
     build: .
     environment:
       STRING_SESSION: $STRING_SESSION
-      API_ID: $API_ID  # defaults to None
+      APP_ID: $APP_ID  # defaults to None
       API_HASH: $API_HASH  # defaults to None
       BOT_TOKEN: $BOT_TOKEN # Not mandatory
       DATABASE_URL: $DATABASE_URL  # defaults to None
