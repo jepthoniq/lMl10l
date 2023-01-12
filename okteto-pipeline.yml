@@ -1,0 +1,3 @@
+icon: https://ibb.co/HHWF4VN
+deploy:
+    - okteto deploy --build -f docker-compose.yml
