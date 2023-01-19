@@ -47,11 +47,6 @@
       "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
       "value": "Asia/Baghdad",
       "required": false
-    },
-    "UPSTREAM_REPO": {
-      "description": "رمز السورس لا تغيره ابدا",
-      "value": "jepthoniq",
-      "required": false
     }
   },
   "addons": [{
