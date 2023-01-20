@@ -1,7 +1,7 @@
 {
-  "name": "سورس الجوكر",
+  "name": "سورس سيرثون",
   "description": "اللهم صلِ على محمد وآل محمد",
-  "logo": "https://telegra.ph/file/83ee584aef1c4db1d9597.jpg",
+  "logo": "صوره",
   "keywords": [
     "plugin",
     "modular",
@@ -50,7 +50,7 @@
     }
   },
   "addons": [{
-    "plan": "heroku-postgresql",
+    "plan": "نن-",
     "options": {
       "version": "12"
     }
