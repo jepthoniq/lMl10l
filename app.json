@@ -1,5 +1,5 @@
 {
-  "name": "سورس الجوكر",
+  "name": "سورس SerThon",
   "description": "اللهم صلِ على محمد وآل محمد",
   "logo": "https://telegra.ph/file/83ee584aef1c4db1d9597.jpg",
   "keywords": [
@@ -50,7 +50,7 @@
     }
   },
   "addons": [{
-    "plan": "heroku-postgresql",
+    "plan": "https://github.com/abdalalaem/SerThon-",
     "options": {
       "version": "12"
     }
