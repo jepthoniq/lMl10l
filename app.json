@@ -50,7 +50,7 @@
     }
   },
   "addons": [{
-    "plan": "نن-",
+    "plan": "https://github.com/abdalalaem/SerThon",
     "options": {
       "version": "12"
     }
