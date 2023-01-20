@@ -27,10 +27,6 @@
       "description": "لا تغير هذه القيمه",
       "value": "ANYTHING"
     },
-    "COMMAND_HAND_LER": {
-      "description": "لا تغير هذه القيمه",
-      "value": "."
-    },
     "STRING_SESSION": {
       "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك",
       "value": ""
