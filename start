@@ -83,7 +83,7 @@ _set_bot () {
     _run_cat_git
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     chmod -R 755 bin
-    echo "    بدء تنزيل بيانات سيرثون    "
+    echo "    بدء تنزيل بيانات جيبثون    "
     echo "
 
     "
