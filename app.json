@@ -31,6 +31,16 @@
       "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك",
       "value": ""
     },
+    "HEROKU_API_KEY": {
+      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم التطبيق اول مربع كتبته خلي هنا نفسه وحروف صغيره",
+      "value": "",
+      "required": false
+    },
     "TG_BOT_USERNAME": {
       "description": "هنا ضع معرف بوتك بدون @",
       "value": ""
