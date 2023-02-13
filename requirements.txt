@@ -1,6 +1,5 @@
 Telethon==1.25.2
 setuptools
-ImageMagick
 wheel
 aiohttp
 beautifulsoup4
@@ -71,7 +70,7 @@ tswift
 PyMuPDF
 validators
 vcsi
-wand
+Wand>=0.6.11
 wikipedia
 ujson
 git+https://github.com/buddhhu/img2html.git
