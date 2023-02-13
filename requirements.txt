@@ -1,5 +1,6 @@
 Telethon==1.25.2
 setuptools
+ImageMagick
 wheel
 aiohttp
 beautifulsoup4
