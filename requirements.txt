@@ -36,6 +36,8 @@ jikanpy
 lyricsgenius
 markdown
 motor
+flask
+gunicorn
 patool
 Pillow
 prettytable
