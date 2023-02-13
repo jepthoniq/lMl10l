@@ -71,7 +71,6 @@ PyMuPDF
 validators
 vcsi
 Wand>=0.6.11
-googletrans==3.1.0a0
 wikipedia
 ujson
 git+https://github.com/buddhhu/img2html.git
