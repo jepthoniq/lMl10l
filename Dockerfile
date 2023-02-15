@@ -12,6 +12,9 @@ RUN apt-get update \
     && apt-get install -y unzip wget
 COPY . /app/
 WORKDIR /app/
+COPY app.py app.py
+EXPOSE 5000
+RUN chmod +x /app/start
 RUN pip3 install --upgrade pip
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 CMD ["bash", "start"]
