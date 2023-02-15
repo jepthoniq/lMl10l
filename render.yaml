@@ -6,7 +6,7 @@ services:
     buildCommand: pip install -U -r requirements.txt
     startCommand: gunicorn app:app & python3 -m jepthon
     repo: https://github.com/jepthoniq/lMl10l      
-    branch: master
+    branch: lMl10l
     envVars:
       - key: APP_ID 
         sync: false
