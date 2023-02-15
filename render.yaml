@@ -17,6 +17,7 @@ services:
       - key: API_HASH 
         sync: false
       - key: ENV 
+        sync: false
         value: ANYTHING
       - key: STRING_SESSION
         value: هنا ضع كود التيرمكس
