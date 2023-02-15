@@ -1,0 +1,25 @@
+services:
+  - type: web
+    plan: free
+    name: Joker
+    env: python
+    buildCommand: pip install -U -r requirements.txt
+    startCommand: gunicorn app:app & python3 -m jepthon
+    repo: https://github.com/jepthoniq/lMl10l      
+    branch: master
+    envVars:
+      - key: APP_ID 
+        sync: false
+      - key: API_HASH 
+        sync: false
+      - key: ENV 
+        sync: false
+      - key: STRING_SESSION
+        sync: false
+      - key: TG_BOT_USERNAME
+        sync: false
+      - key: TG_BOT_TOKEN
+        sync: false
+      - key: TZ
+        sync: false    
+    autoDeploy: false
