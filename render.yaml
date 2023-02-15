@@ -13,7 +13,7 @@ services:
     branch: Scalingo
     envVars:
       - key: ALIVE_NAME
-        sync
+        sync: false
       - key: APP_ID 
         sync: false
       - key: API_HASH 
