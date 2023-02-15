@@ -6,9 +6,6 @@ RUN apt-get update && apt-get -y install \
 RUN apt-get install git curl python3-pip ffmpeg -y
 RUN apt-get install git curl python3-pip mediainfo -y
 RUN apt-get install git curl python3-pip p7zip-full -y
-RUN pip3 install pillow \
-    google_trans_new \
-    googletrans==4.0.0rc1
 RUN apt-get update \
     && apt-get install -y unzip wget
 ARG USER=root
@@ -17,10 +14,8 @@ RUN python3 -m venv venv
 WORKDIR /app
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
-COPY requirements.txt ./requirements.txt
-RUN pip3 install -r requirements.txt
-COPY start start
-COPY app.py app.py
-EXPOSE 5000
-RUN chmod +x /app/start
-ENTRYPOINT ["./start"]
+COPY . /app/
+WORKDIR /app/
+RUN pip3 install --upgrade pip
+RUN pip3 install -U pip && pip3 install -U -r requirements.txt
+CMD ["bash", "start"]
