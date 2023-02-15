@@ -1,1 +1,1 @@
-worker: bash start
+Web: bash start
