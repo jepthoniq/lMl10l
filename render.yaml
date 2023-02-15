@@ -4,17 +4,20 @@ services:
     name: Joker
     env: python
     buildCommand: pip install -U -r requirements.txt
-    startCommand: gunicorn app:app & python3 -m jepthon
+    startCommand: gunicorn app:app & bash start
     repo: https://github.com/jepthoniq/lMl10l      
     branch: Scalingo
     envVars:
       - key: APP_ID 
+        value: هنا الابب ايدي
         sync: false
       - key: API_HASH 
         sync: false
       - key: ENV 
         sync: false
       - key: STRING_SESSION
+        sync: false
+      - key: DATABASE_URL
         sync: false
       - key: TG_BOT_USERNAME
         sync: false
