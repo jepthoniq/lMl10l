@@ -19,7 +19,7 @@ services:
       - key: ENV 
         value: ANYTHING
       - key: STRING_SESSION
-        sync: false
+        value: هنا ضع كود التيرمكس
       - key: TG_BOT_USERNAME
         sync: false
       - key: TG_BOT_TOKEN
