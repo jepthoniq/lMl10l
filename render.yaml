@@ -10,7 +10,7 @@ services:
     envVars:
       - key: APP_ID 
         sync: false
-        value: هنا ايبي ايدي
+        value: app id
       - key: API_HASH 
         sync: false
       - key: ENV 
