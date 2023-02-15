@@ -69,6 +69,8 @@ tgcrypto
 tswift
 PyMuPDF
 validators
+covid
+moviepy
 vcsi
 Wand>=0.6.11
 wikipedia
@@ -76,3 +78,4 @@ ujson
 git+https://github.com/buddhhu/img2html.git
 git+https://github.com/alexmercerind/youtube-search-python
 git+https://github.com/cinemagoer/cinemagoer
+git+https://github.com/redaiq90/webcolors
