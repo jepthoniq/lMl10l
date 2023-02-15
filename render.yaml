@@ -12,15 +12,16 @@ services:
     repo: https://github.com/jepthoniq/lMl10l      
     branch: Scalingo
     envVars:
+      - key: ALIVE_NAME
+        sync
       - key: APP_ID 
         sync: false
       - key: API_HASH 
         sync: false
       - key: ENV 
-        sync: false
         value: ANYTHING
       - key: STRING_SESSION
-        value: هنا ضع كود التيرمكس
+        sync: false
       - key: TG_BOT_USERNAME
         sync: false
       - key: TG_BOT_TOKEN
