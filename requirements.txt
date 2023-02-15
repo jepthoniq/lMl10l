@@ -67,7 +67,8 @@ sqlalchemy==1.3.23
 sqlalchemy-json
 telegraph
 tgcrypto
-spedtest
+speedtest-cli
+yt-dlp
 tswift
 PyMuPDF
 validators
