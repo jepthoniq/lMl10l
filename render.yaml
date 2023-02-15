@@ -10,7 +10,7 @@ services:
     env: docker
     region: frankfurt
     repo: https://github.com/jepthoniq/lMl10l      
-    branch: Scalingo
+    branch: 313
     envVars:
       - key: ALIVE_NAME
         sync: false
