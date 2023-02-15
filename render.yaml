@@ -7,6 +7,8 @@ services:
     plan: free
     name: Joker
     env: Docker
+    dockerfilePath: ./sub/Dockerfile
+    dockerContext: ./sub/src
     repo: https://github.com/jepthoniq/lMl10l      
     branch: Scalingo
     envVars:
