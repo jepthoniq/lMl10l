@@ -20,14 +20,13 @@ services:
         sync: false
       - key: STRING_SESSION
         sync: false
-      - key: DATABASE_URL
-        sync: false
       - key: TG_BOT_USERNAME
         sync: false
       - key: TG_BOT_TOKEN
         sync: false
       - key: TZ
         sync: false 
+      - key: DATABASE_URL
         fromDatabase:
           name: postgres
           property: connectionString   
