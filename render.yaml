@@ -9,8 +9,8 @@ services:
     branch: Scalingo
     envVars:
       - key: APP_ID 
-        value: هنا الابب ايدي
         sync: false
+        value: هنا ايبي ايدي
       - key: API_HASH 
         sync: false
       - key: ENV 
