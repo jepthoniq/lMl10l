@@ -69,6 +69,7 @@ telegraph
 tgcrypto
 speedtest-cli
 yt-dlp
+youtube_dl
 tswift
 PyMuPDF
 validators
