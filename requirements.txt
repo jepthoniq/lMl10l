@@ -11,6 +11,7 @@ cowpy
 colour
 cryptg
 csvfaker
+ocrspace
 fontTools
 emoji==1.7.0
 httpx[http2]
