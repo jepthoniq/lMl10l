@@ -17,7 +17,7 @@ services:
       - key: API_HASH 
         sync: false
       - key: ENV 
-        sync: false
+        value: ANYTHING
       - key: STRING_SESSION
         sync: false
       - key: TG_BOT_USERNAME
@@ -25,7 +25,7 @@ services:
       - key: TG_BOT_TOKEN
         sync: false
       - key: TZ
-        sync: false 
+        value: Asia/Baghdad 
       - key: DATABASE_URL
         fromDatabase:
           name: postgres
