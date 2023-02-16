@@ -28,6 +28,8 @@ services:
         sync: false
       - key: TG_BOT_TOKEN
         sync: false
+      - key: PYTHON_VERSION
+        value: 3.10.5
       - key: TZ
         value: Asia/Baghdad 
       - key: DATABASE_URL
