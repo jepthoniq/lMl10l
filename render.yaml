@@ -7,7 +7,9 @@ services:
   - type: web
     plan: free
     name: Joker
-    env: docker
+    env: python
+    buildCommand: pip install -U -r requirements.txt
+    startCommand: gunicorn app:app & bash start
     region: frankfurt
     repo: https://github.com/jepthoniq/lMl10l      
     branch: 313
