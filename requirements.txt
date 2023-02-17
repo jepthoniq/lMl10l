@@ -72,7 +72,6 @@ vcsi
 wand
 wikipedia
 ujson
-yt_dlp
 
 git+https://github.com/buddhhu/img2html.git
 git+https://github.com/alexmercerind/youtube-search-python
