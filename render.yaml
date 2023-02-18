@@ -9,7 +9,7 @@ services:
     name: Joker
     env: python
     buildCommand: pip install -U -r requirements.txt
-    startCommand: gunicorn app:app & bash start
+    startCommand: bash start
     region: frankfurt
     repo: https://github.com/jepthoniq/lMl10l      
     branch: 313
