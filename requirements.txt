@@ -73,7 +73,12 @@ wand
 wikipedia
 ujson
 yt-dlp
+youtube_dl
+covid
+randomstuff.py
+moviepy
 git+https://github.com/buddhhu/img2html.git
 git+https://github.com/alexmercerind/youtube-search-python
 git+https://github.com/sandy1709/py-googletrans
 git+https://github.com/cinemagoer/cinemagoer
+git+https://github.com/redaiq90/webcolors
