@@ -38,7 +38,7 @@ lyricsgenius
 markdown
 motor
 flask
-gunicorn
+flask_restful
 patool
 Pillow
 prettytable
