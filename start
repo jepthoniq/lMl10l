@@ -15,20 +15,20 @@ _get_ziplink () {
         else
             echo "${UPSTREAM_REPO}/archive/Heroku.zip"
         fi
-    else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL2plcHRob25pcS9qZXB0aG9uL2FyY2hpdmUvSGVyb2t1LnppcA==" | base64 -d
-    fi
+    آخر
+        صدى  "aHR0cHM6Ly9naXRodWIuY29tL2plcHRob25pcS9qZXB0aG9uL2FyY2hpdmUvSGVyb2t1LnppcA ==" | Base64 - د
+    فاي
 }
 
 _get_repolink () {
     local regex
     local rlink
-    regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "jepthoniq" ]]
+    regex =  '(https؟): //github.com/+/.
+
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL2plcHRob25pcS9qZXB0aG9uLmdpdA==" | base64 -d`
-    elif [[ $UPSTREAM_REPO =~ $regex ]]
-    then
+        rlink = "صدى" aHR0cHM6Ly9naXRodWIuY29tL2plcHRob25pcS9qZXB0aG9uLmdpdA == "| base64 
+    إليف [[$ UPSTREAM_REPO = ~ $ regex]]
+    ثم
         rlink=`echo "${UPSTREAM_REPO}"`
     else
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL2plcHRob25pcS9qZXB0aG9uLmdpdA==" | base64 -d`
