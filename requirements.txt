@@ -1,4 +1,4 @@
-Telethon==1.28.2
+Telethon==1.25.2
 setuptools
 wheel
 aiohttp
