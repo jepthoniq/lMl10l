@@ -11,8 +11,6 @@ services:
     buildCommand: pip install -U -r requirements.txt
     startCommand: python3 jep.py & bash start
     region: frankfurt
-    repo: https://github.com/jepthoniq/lMl10l.git    
-    branch: 313
     envVars:
       - key: ALIVE_NAME
         sync: false
