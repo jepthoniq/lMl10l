@@ -1,5 +1,4 @@
 Telethon==1.25.2
-opencv-python
 selenium
 setuptools
 wheel
