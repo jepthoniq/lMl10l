@@ -32,6 +32,7 @@ justwatch
 kwot
 lottie
 lxml
+covid
 jikanpy
 lyricsgenius
 markdown
