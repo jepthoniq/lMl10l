@@ -1,6 +1,7 @@
 Telethon==1.25.2
 selenium
 cryptography
+pyminifier
 setuptools
 wheel
 aiohttp
