@@ -8,6 +8,17 @@ cloudscraper
 pymongo[srv]
 speechrecognition
 colour
+qrcode
+python-barcode
+jotquote
+glitch_this
+cryptg
+cowpy
+beautifulsoup4
+cfscrape
+moviepy
+tswift
+wikipedia
 fontTools
 emoji==1.7.0
 httpx[http2]
