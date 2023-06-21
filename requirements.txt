@@ -1,6 +1,5 @@
 Telethon==1.25.2
 selenium
-cryptography
 setuptools
 wheel
 aiohttp
@@ -16,6 +15,7 @@ cryptg
 cowpy
 beautifulsoup4
 cfscrape
+cryptography
 moviepy
 tswift
 wikipedia
