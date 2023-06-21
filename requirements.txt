@@ -1,7 +1,6 @@
 Telethon==1.25.2
 selenium
 setuptools
-pyminifier
 wheel
 aiohttp
 cloudscraper
