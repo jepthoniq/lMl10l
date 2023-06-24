@@ -1,7 +1,7 @@
 {
-  "name": "سورس الجوكر المجاني | Source AL-Joker Free",
+  "name": "سورس تيبثون العرب المجاني | Source Tepthon Free",
   "description": "اللهم صلِ على محمد وآل محمد",
-  "logo": "https://telegra.ph/file/83ee584aef1c4db1d9597.jpg",
+  "logo": "",
   "keywords": [
     "plugin",
     "modular",
@@ -52,6 +52,11 @@
     "TZ": {
       "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
       "value": "Asia/Baghdad",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "لاتغيرها أبد",
+      "value": "https://github.com/E9N99/Tepthon",
       "required": false
     }
   },
