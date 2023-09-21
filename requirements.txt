@@ -72,10 +72,10 @@ validators
 vcsi
 wand
 ujson
-yt-dlp
 youtube_dl
 randomstuff.py
 git+https://github.com/buddhhu/img2html.git
 git+https://github.com/alexmercerind/youtube-search-python
 git+https://github.com/sandy1709/py-googletrans
 git+https://github.com/redaiq90/webcolors
+git+https://github.com/yt-dlp/yt-dlp
