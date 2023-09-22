@@ -15,14 +15,6 @@
       "description": "هنا ضع اسم التلجرام الخاص بك",
       "value": ""
     },
-    "APP_ID": {
-      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "هنا ضع الايبي هاش الخاص بك",
-      "value": ""
-    },
     "ENV": {
       "description": "لا تغير هذه القيمه",
       "value": "ANYTHING"
