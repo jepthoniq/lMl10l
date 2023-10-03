@@ -41,10 +41,6 @@
       "value": "",
       "required": false
     },
-    "TG_BOT_USERNAME": {
-      "description": "هنا ضع معرف بوتك بدون @",
-      "value": ""
-    },
     "TG_BOT_TOKEN": {
       "description": "هنا ضع توكن بوتك الذي صنعته",
       "value": ""
