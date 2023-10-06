@@ -28,7 +28,7 @@
       "value": "ANYTHING"
     },
     "STRING_SESSION": {
-      "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك",
+      "description": "هنا ضع كود التيرمكس او كود البايروجرام الخاص بك",
       "value": ""
     },
     "HEROKU_API_KEY": {
