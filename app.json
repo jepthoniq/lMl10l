@@ -2,11 +2,7 @@
   "name": "سورس الجوكر المجاني | Source AL-Joker Free",
   "description": "اللهم صلِ على محمد وآل محمد",
   "logo": "https://telegra.ph/file/83ee584aef1c4db1d9597.jpg",
-  "keywords": [
-    "plugin",
-    "modular",
-    "productivity"
-  ],
+  "keywords": ["plugin", "modular", "productivity"],
   "repository": "https://github.com/jepthoniq/lMl10l/",
   "website": "#TODO",
   "success_url": "#TODO",
@@ -16,7 +12,7 @@
       "value": ""
     },
     "APP_ID": {
-      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
+      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 أرقام", 
       "value": ""
     },
     "API_HASH": {
@@ -24,11 +20,11 @@
       "value": ""
     },
     "ENV": {
-      "description": "لا تغير هذه القيمه",
+      "description": "لا تغير هذه القيمة",
       "value": "ANYTHING"
     },
     "STRING_SESSION": {
-      "description": "هنا ضع كود التيرمكس او كود البايروجرام الخاص بك",
+      "description": "هنا ضع كود التيرمكس أو كود البايروجرام الخاص بك",
       "value": ""
     },
     "HEROKU_API_KEY": {
@@ -37,7 +33,7 @@
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "اسم التطبيق اول مربع كتبته خلي هنا نفسه وحروف صغيره",
+      "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة",
       "value": "",
       "required": false
     },
@@ -46,7 +42,7 @@
       "value": ""
     },
     "TZ": {
-      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
+      "description": "المنطقة الزمنية من القارة الخاصة بك وعاصمة بلدك يجب أن يكون أول حرف كبير",
       "value": "Asia/Baghdad",
       "required": false
     }
@@ -57,27 +53,36 @@
       "version": "12"
     }
   }],
-  "buildpacks": [{
-    "url": "https://github.com/jepthoniq/heroku-buildpack-ffmpeg-latest"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
-  },{
-    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
-  },{
-    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
-  },{
-    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-  },{
-    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
-  },{
-    "url": "heroku/python"
-  }]
+  "buildpacks": [
+    {
+      "url": "https://github.com/jepthoniq/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+    },
+    {
+      "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+    },
+    {
+      "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+    },
+    {
+      "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
   "formation": {
     "worker": {
-    "quantity": 1,
-    "size": "eco"
+      "quantity": 1,
+      "size": "eco"
     }
   },
   "stack": "heroku-22"
