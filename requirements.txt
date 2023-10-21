@@ -1,4 +1,4 @@
-Telethon==1.25.2
+Telethon
 selenium
 setuptools
 wheel
