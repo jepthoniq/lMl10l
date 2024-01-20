@@ -1,4 +1,4 @@
-Telethon
+git+https://github.com/LonamiWebs/Telethon/archive/v1.zip
 selenium
 setuptools
 wheel
