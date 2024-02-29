@@ -1,7 +1,7 @@
 Telethon
 selenium
 setuptools
-py-tgcalls==0.9.1
+py-tgcalls==0.9.7
 wheel
 aiohttp
 cloudscraper
