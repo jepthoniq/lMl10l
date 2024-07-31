@@ -2,7 +2,7 @@ Telethon
 selenium
 setuptools
 wheel
-aiohttp
+aiohttp==3.9.5
 cloudscraper
 pymongo[srv]
 speechrecognition
