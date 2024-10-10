@@ -58,12 +58,6 @@
       "url": "https://github.com/jepthoniq/heroku-buildpack-ffmpeg-latest"
     },
     {
-      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
-    },
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-chrome-for-testing"
-    },
-    {
       "url": "https://github.com/riganf/heroku-buildpack-p7zip"
     },
     {
