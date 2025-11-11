@@ -3,6 +3,6 @@
 
 **من افضل سورسات اليوزر بوت العربية**
 
-#**By:** https://t.me/jepthon
+#**By:** https://t.me/vaaas
 
 
